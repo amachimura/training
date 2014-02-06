@@ -3,7 +3,8 @@ package doukakumain;
 import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.List;
-
+//文字列として渡される二値画像を時計回りに90度回転。
+//refs http://qiita.com/Nabetani/items/9d80de41903775296ca6
 public class BitTetris {
 	private final int COLUMN_HEIGHT = 8;
 

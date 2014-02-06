@@ -3,6 +3,8 @@ package doukakumain;
 import java.util.ArrayList;
 import java.util.List;
 
+//三目並べの手順が文字列として渡される。どっちが勝つか、どうやって勝つかを出力。
+//refs http://nabetani.sakura.ne.jp/hena/1/
 public class TickTackToe {
 	private final int NUMBER_OF_BOXES = 9;
 	private final Integer[][] LINES = {
